@@ -14,15 +14,17 @@
             font-family: 'Inter', sans-serif;
             position: relative;
         }
+
         /* Fade-in initial state */
-        
+
         .fade-in {
             opacity: 0;
             transform: translateY(20px);
             transition: opacity 1s ease-out, transform 1s ease-out;
         }
+
         /* Fade-in visible state */
-        
+
         .fade-in.visible {
             opacity: 1;
             transform: translateY(0);
@@ -51,12 +53,16 @@
     <section class="bg-gray-800 py-20 px-6" id="about">
         <h2 class="text-3xl font-semibold text-center mb-6">About Me</h2>
         <p class="max-w-3xl mx-auto text-center text-gray-300 mb-8">
-            I'm Asha (Myo Thiha Ko), a junior web developer passionate about building clean, responsive, and functional websites using modern web technologies. I enjoy solving real-world problems and constantly improving my skills in both frontend and backend development.
+            I'm Asha (Myo Thiha Ko), a junior web developer passionate about building clean, responsive, and functional
+            websites using modern web technologies. I enjoy solving real-world problems and constantly improving my
+            skills in both frontend and backend development.
         </p>
+
         <!-- Social Media Links -->
         <div class="flex justify-center gap-8 text-gray-400">
             <!-- Facebook -->
-            <a href="https://facebook.com/yourprofile" target="_blank" aria-label="Facebook" class="hover:text-blue-600 transition-colors">
+            <a href="https://facebook.com/yourprofile" target="_blank" aria-label="Facebook"
+                class="hover:text-blue-600 transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
                     <path
                         d="M22.675 0h-21.35C.592 0 0 .592 0 1.326v21.348C0 23.408.592 24 1.325 24H12.82v-9.294H9.692v-3.622h3.127V8.413c0-3.1 1.893-4.788 4.658-4.788 1.325 0 2.466.099 2.797.143v3.24l-1.918.001c-1.504 0-1.796.715-1.796 1.763v2.31h3.59l-.467 3.622h-3.123V24h6.116c.73 0 1.322-.592 1.322-1.326V1.326C24 .592 23.408 0 22.675 0z" />
@@ -64,7 +70,8 @@
             </a>
 
             <!-- Telegram -->
-            <a href="https://t.me/yourprofile" target="_blank" aria-label="Telegram" class="hover:text-blue-400 transition-colors">
+            <a href="https://t.me/yourprofile" target="_blank" aria-label="Telegram"
+                class="hover:text-blue-400 transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
                     <path
                         d="M9.958 16.35l-.4 5.602c.57 0 .82-.243 1.11-.535l2.666-2.556 5.533 4.06c1.01.56 1.73.27 1.99-1.02L23.88 2.8c.29-1.273-.47-1.78-1.3-1.48L1.88 9.246c-1.244.49-1.227 1.19-.215 1.52l5.666 1.764 13.142-8.44c.622-.37 1.19-.16.722.15L9.958 16.35z" />
@@ -72,7 +79,8 @@
             </a>
 
             <!-- Viber -->
-            <a href="viber://chat?number=%2Byourphonenumber" aria-label="Viber" class="hover:text-purple-600 transition-colors">
+            <a href="viber://chat?number=%2Byourphonenumber" aria-label="Viber"
+                class="hover:text-purple-600 transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
                     <path
                         d="M17.251 15.254c-.65 0-1.296-.12-1.9-.354-.324-.122-.62-.284-.863-.48-.085-.07-.16-.145-.235-.223-.077-.082-.147-.168-.212-.257-.068-.103-.12-.21-.15-.32-.017-.07-.013-.132-.014-.199-.004-.17.008-.336.03-.5.02-.142.048-.283.083-.422.037-.154.074-.308.114-.46.024-.096.06-.19.107-.28.07-.12.15-.232.244-.328.108-.108.237-.196.38-.257.142-.063.294-.097.446-.1.173-.002.345.037.502.11.04.02.077.045.11.07.103.08.195.18.27.29.05.07.09.15.11.233.034.127.04.258.018.39-.017.096-.05.187-.1.27-.03.05-.07.095-.12.14-.09.09-.203.16-.327.2-.13.042-.267.05-.4.025-.07-.012-.135-.04-.195-.08-.034-.025-.06-.057-.085-.09-.057-.08-.102-.175-.13-.275-.03-.093-.04-.19-.02-.286.004-.03.01-.058.017-.086.03-.116.083-.224.15-.317.06-.09.138-.168.23-.225.12-.08.27-.126.415-.123.17.002.335.056.475.152.036.02.067.045.1.07.095.07.176.164.23.27.038.066.062.138.07.214.02.146-.008.295-.077.425-.035.06-.08.11-.14.153-.07.054-.153.087-.243.098-.07.008-.14.005-.206-.01-.07-.016-.13-.05-.176-.1-.02-.02-.04-.04-.05-.07-.035-.07-.054-.15-.06-.23-.007-.088-.004-.177.008-.265.006-.038.015-.074.027-.11.06-.21.176-.405.336-.562.18-.18.406-.304.66-.364.302-.073.62-.035.89.11.21.11.39.28.52.49.13.22.2.47.2.73 0 .46-.2.9-.53 1.22-.33.34-.77.52-1.22.52z" />
@@ -82,12 +90,122 @@
             </a>
 
             <!-- GitHub -->
-            <a href="https://github.com/yourprofile" target="_blank" aria-label="GitHub" class="hover:text-gray-300 transition-colors">
+            <a href="https://github.com/yourprofile" target="_blank" aria-label="GitHub"
+                class="hover:text-gray-300 transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M12 2C6.476 2 2 6.484 2 12.016c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.868-.013-1.703-2.782.604-3.369-1.34-3.369-1.34-.454-1.153-1.11-1.461-1.11-1.461-.908-.62.069-.608.069-.608 1.004.07 1.532 1.031 1.532 1.031.892 1.528 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.115-4.555-4.964 0-1.096.39-1.992 1.029-2.695-.103-.253-.446-1.27.098-2.647 0 0 .84-.27 2.75 1.026a9.564 9.564 0 012.5-.336c.85.004 1.705.115 2.5.337 1.908-1.296 2.747-1.027 2.747-1.027.546 1.378.202 2.395.1 2.647.64.703 1.028 1.6 1.028 2.695 0 3.86-2.338 4.708-4.566 4.956.36.31.68.923.68 1.86 0 1.343-.012 2.424-.012 2.75 0 .268.18.58.688.48C19.138 20.18 22 16.433 22 12.015 22 6.484 17.523 2 12 2z" />
                 </svg>
             </a>
+        </div>
+    </section>
+    <section id="journey" class="bg-gray-900 text-white py-20 px-6">
+        <h2 class="text-4xl font-bold text-center mb-12">
+            My <span class="text-blue-500">Journey</span>
+        </h2>
+
+        <div class="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+            <!-- Education Timeline -->
+            <div>
+                <h3 class="text-2xl font-semibold mb-6">Education</h3>
+                <div class="relative border-l-4 border-blue-500 pl-6 space-y-10">
+
+                    <!-- Grade 1 to 4 -->
+                    <div class="relative">
+                        <div class="absolute -left-9 top-1 w-5 h-5 bg-blue-500 rounded-full"></div>
+                        <p class="text-sm text-blue-400 mb-1">Grade 1 - 4</p>
+                        <h4 class="text-xl font-semibold">No.2 Basic High School</h4>
+                        <p class="text-gray-300 text-sm">
+                            Attended from Grade 1 to Grade 4. Built foundational knowledge and discipline.
+                        </p>
+                    </div>
+
+                    <!-- Grade 5 to 8 -->
+                    <div class="relative">
+                        <div class="absolute -left-9 top-1 w-5 h-5 bg-blue-500 rounded-full"></div>
+                        <p class="text-sm text-blue-400 mb-1">Grade 5 - 8</p>
+                        <h4 class="text-xl font-semibold">San Hein Private High School</h4>
+                        <p class="text-gray-300 text-sm">
+                            Completed Grades 5 through 8, strengthening academic performance and skills.
+                        </p>
+                    </div>
+
+                    <!-- Grade 9 to 10 -->
+                    <div class="relative">
+                        <div class="absolute -left-9 top-1 w-5 h-5 bg-blue-500 rounded-full"></div>
+                        <p class="text-sm text-blue-400 mb-1">Grade 9 - 10</p>
+                        <h4 class="text-xl font-semibold">Daw Moe Hlaing Hlaing Htun Private High School</h4>
+                        <p class="text-gray-300 text-sm">
+                            Focused on key subjects and passed Grade 10 with 4 distinctions in Math, Chemistry, Physics,
+                            and Biology.
+                        </p>
+                    </div>
+
+                    <!-- Bachelor Degree -->
+                    <div class="relative">
+                        <div class="absolute -left-9 top-1 w-5 h-5 bg-blue-500 rounded-full"></div>
+                        <p class="text-sm text-blue-400 mb-1">Currently</p>
+                        <h4 class="text-xl font-semibold">Strategy First University</h4>
+                        <p class="text-gray-300 text-sm">
+                            Currently pursuing a Bachelor's Degree to further academic and personal development.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                <h3 class="text-2xl font-semibold mb-6">Experience</h3>
+                <div class="relative border-l-4 border-blue-500 pl-6 space-y-10">
+
+                    <!-- Family Construction Shop Staff -->
+                    <div class="relative">
+                        <div class="absolute -left-9 top-1 w-5 h-5 bg-blue-500 rounded-full"></div>
+                        <p class="text-sm text-blue-400 mb-1">March 2020 - October 2020</p>
+                        <h4 class="text-xl font-semibold">Staff - Family Construction Shop</h4>
+                        <p class="text-gray-300 text-sm">
+                            Assisted with day-to-day operations including inventory, purchasing, and customer service in
+                            the family-run construction business.
+                        </p>
+                    </div>
+
+                    <!-- Self Learning + Web Projects -->
+                    <div class="relative">
+                        <div class="absolute -left-9 top-1 w-5 h-5 bg-blue-500 rounded-full"></div>
+                        <p class="text-sm text-blue-400 mb-1">May 2023 - Present</p>
+                        <h4 class="text-xl font-semibold">Self-Learning - Full-Stack Developer</h4>
+                        <p class="text-gray-300 text-sm">
+                            Studied full-stack web development independently and created several real-world projects
+                            including dashboards and the
+                            <a href="https://ashamm.shop" target="_blank" class="text-blue-400 underline">Asha Social
+                                Boosting Website</a>.
+                        </p>
+                    </div>
+
+                    <!-- Accounting for Fruit Wholesale Market -->
+                    <div class="relative">
+                        <div class="absolute -left-9 top-1 w-5 h-5 bg-blue-500 rounded-full"></div>
+                        <p class="text-sm text-blue-400 mb-1">May 2025 - Present</p>
+                        <h4 class="text-xl font-semibold">Freelance Accountant - Family Fruit Wholesale Market</h4>
+                        <p class="text-gray-300 text-sm">
+                            Managed and recorded financial data using EBS accounting software for the family’s wholesale
+                            business, achieving approximately 80% software proficiency.
+                        </p>
+                    </div>
+
+                    <div class="relative">
+                        <div class="absolute -left-9 top-1 w-5 h-5 bg-blue-500 rounded-full"></div>
+                        <p class="text-sm text-blue-400 mb-1">May 2025 - Present</p>
+                        <h4 class="text-xl font-semibold">Freelance Accountant - Family Construction Shop</h4>
+                        <p class="text-gray-300 text-sm">
+                            Managed financial records and daily transactions using my self-developed accounting
+                            software, designed specifically for the construction materials business, with functionality
+                            similar to POS systems.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </section>
 
@@ -210,9 +328,11 @@
                 <h3 class="text-xl font-semibold mb-2">Social Boosting Platform</h3>
                 <p class="text-gray-400 mb-4">PHP, MySQL, JavaScript, Boostarp, cURL API</p>
                 <p class="text-gray-500 text-sm mb-4">
-                    Users can sign up, place social media service orders, view order statuses, manage their balance, and submit tickets.
+                    Users can sign up, place social media service orders, view order statuses, manage their balance, and
+                    submit tickets.
                 </p>
-                <a href="https://socialboost.z246014-0w10am.ls02.zwhhosting.com/login.php" class="text-blue-400 hover:underline">Visit Website</a>
+                <a href="https://socialboost.z246014-0w10am.ls02.zwhhosting.com/login.php"
+                    class="text-blue-400 hover:underline">Visit Website</a>
             </div>
             <!-- Placeholder Project -->
             <div class="bg-gray-900 p-6 rounded-2xl shadow-lg">
@@ -248,7 +368,8 @@
                         <i class="fas fa-phone-alt text-2xl"></i>
                     </div>
                     <h3 class="text-lg font-semibold text-green-400 mb-1">Call Us</h3>
-                    <p class="text-gray-300 mb-2">Let’s have a call – there’s nothing quite like talking to another person.
+                    <p class="text-gray-300 mb-2">Let’s have a call – there’s nothing quite like talking to another
+                        person.
                     </p>
                     <p class="text-green-400">+959-769-211-585</p>
                 </div>
@@ -267,7 +388,8 @@
                 <div class="bg-gray-800 p-6 rounded-2xl shadow-md grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                     <div class="mb-4 text-green-400">
                         <i class="fas fa-rocket text-2xl"></i>
-                        <h3 class="text-xl font-semibold text-green-400 mb-2">Feel free to send our friendly team a message
+                        <h3 class="text-xl font-semibold text-green-400 mb-2">Feel free to send our friendly team a
+                            message
                         </h3>
                         <p class="text-gray-300">
                             Message us using our online chat system for quick and efficient support.
@@ -276,17 +398,21 @@
                     <form action="#" method="POST" class="space-y-4">
                         <div>
                             <label for="name" class="sr-only">Name</label>
-                            <input type="text" name="name" placeholder="Enter your name" required class="w-full px-4 py-2 bg-white text-black rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-400" />
+                            <input type="text" name="name" placeholder="Enter your name" required
+                                class="w-full px-4 py-2 bg-white text-black rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-400" />
                         </div>
                         <div>
                             <label for="email" class="sr-only">Email</label>
-                            <input type="email" name="email" placeholder="Enter your email" required class="w-full px-4 py-2 bg-white text-black rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-400" />
+                            <input type="email" name="email" placeholder="Enter your email" required
+                                class="w-full px-4 py-2 bg-white text-black rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-400" />
                         </div>
                         <div>
                             <label for="message" class="sr-only">Message</label>
-                            <textarea name="message" rows="5" placeholder="Enter message" required class="w-full px-4 py-2 bg-white text-black rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-400"></textarea>
+                            <textarea name="message" rows="5" placeholder="Enter message" required
+                                class="w-full px-4 py-2 bg-white text-black rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-400"></textarea>
                         </div>
-                        <button type="submit" class="w-full bg-green-400 hover:bg-green-500 text-black font-semibold py-2 rounded-md transition duration-300">
+                        <button type="submit"
+                            class="w-full bg-green-400 hover:bg-green-500 text-black font-semibold py-2 rounded-md transition duration-300">
                             Submit
                         </button>
                     </form>
